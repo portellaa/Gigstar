@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0FE64F153FB7BE00586077 /* default_artist.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0FE64E153FB7BE00586077 /* default_artist.png */; };
+		1B06EB5015125E0A00CA5F0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B06EB4F15125E0A00CA5F0A /* UIKit.framework */; };
+		1B06EB5215125E0A00CA5F0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B06EB5115125E0A00CA5F0A /* Foundation.framework */; };
+		1B06EB5415125E0A00CA5F0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B06EB5315125E0A00CA5F0A /* CoreGraphics.framework */; };
+		1B06EB5A15125E0A00CA5F0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B06EB5815125E0A00CA5F0A /* InfoPlist.strings */; };
+		1B06EB5C15125E0A00CA5F0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06EB5B15125E0A00CA5F0A /* main.m */; };
+		1B06EB6015125E0A00CA5F0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06EB5F15125E0A00CA5F0A /* AppDelegate.m */; };
+		1B3D85E7153995870041DDEA /* LocalSearchConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D85E6153995870041DDEA /* LocalSearchConnection.m */; };
+		1B44A0C8151261B0000AB40E /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B44A0C6151261B0000AB40E /* DiscoverViewController.m */; };
+		1B44A0C9151261B0000AB40E /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B44A0C7151261B0000AB40E /* DiscoverViewController.xib */; };
+		1B632D50153EF94F00E87071 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B632D4F153EF94F00E87071 /* Artist.m */; };
+		1B7BA4571537A5D900B40F39 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7BA4561537A5D900B40F39 /* location.png */; };
+		1B82FBA3153756D20018EC87 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B82FBA1153756D20018EC87 /* SettingsViewController.m */; };
+		1B82FBA4153756D20018EC87 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B82FBA2153756D20018EC87 /* SettingsViewController.xib */; };
+		1B82FBA7153760C90018EC87 /* ArtistRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B82FBA6153760C90018EC87 /* ArtistRepository.m */; };
+		1B85E51415387F9100D8F59D /* MapEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B85E51215387F9100D8F59D /* MapEventsViewController.m */; };
+		1B85E51515387F9100D8F59D /* MapEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B85E51315387F9100D8F59D /* MapEventsViewController.xib */; };
+		1B8DCE59153FE26200B3E74A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DCE57153FE26200B3E74A /* Model.xcdatamodeld */; };
+		1B8DCE5C153FE39000B3E74A /* Artists.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DCE5B153FE39000B3E74A /* Artists.m */; };
+		1B8DCE60153FE43500B3E74A /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DCE5E153FE43500B3E74A /* FollowViewController.m */; };
+		1B8DCE61153FE43500B3E74A /* FollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DCE5F153FE43500B3E74A /* FollowViewController.xib */; };
+		1BB3E22B153DD14A0041A1D5 /* MapEventAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3E22A153DD14A0041A1D5 /* MapEventAnnotationView.m */; };
+		1BB3E22E153DD16E0041A1D5 /* MapEventAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3E22D153DD16E0041A1D5 /* MapEventAnnotation.m */; };
+		1BB3E22F153DD2990041A1D5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF2238C15195927004322A8 /* MapKit.framework */; };
+		1BBC7709153DC341009EA4BD /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC7707153DC340009EA4BD /* ArtistViewController.m */; };
+		1BBC770A153DC341009EA4BD /* ArtistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC7708153DC340009EA4BD /* ArtistViewController.xib */; };
+		1BC6E7E8151B83E4008EE467 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC6E7E7151B83E4008EE467 /* CoreData.framework */; };
+		1BDF4151151A1E920020061F /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF414F151A1E920020061F /* ScheduleViewController.m */; };
+		1BDF4152151A1E920020061F /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDF4150151A1E920020061F /* ScheduleViewController.xib */; };
+		1BE6F0D5153F1A7800CD787D /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6F0D4153F1A7800CD787D /* Event.m */; };
+		1BE6F0D9153F1EEB00CD787D /* MapEventsConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6F0D8153F1EEB00CD787D /* MapEventsConnection.m */; };
+		1BE6F0E0153F936700CD787D /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6F0DE153F936600CD787D /* EventDetailViewController.m */; };
+		1BE6F0E1153F936700CD787D /* EventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE6F0DF153F936700CD787D /* EventDetailViewController.xib */; };
+		1BE6F0EB153FA3A400CD787D /* ArtistFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6F0E8153FA3A400CD787D /* ArtistFetch.m */; };
+		1BE6F0EC153FA3A400CD787D /* ArtistSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6F0EA153FA3A400CD787D /* ArtistSearch.m */; };
+		1BE83E1C151A8660003212E6 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE83E1B151A8660003212E6 /* map.png */; };
+		1BE83E21151A914D003212E6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE83E1F151A914D003212E6 /* AboutViewController.m */; };
+		1BE83E22151A914D003212E6 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE83E20151A914D003212E6 /* AboutViewController.xib */; };
+		1BE83E2B151A926B003212E6 /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE83E2A151A926B003212E6 /* schedule.png */; };
+		1BE83E2D151A935F003212E6 /* follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE83E2C151A935F003212E6 /* follow.png */; };
+		1BE83E2F151A94B5003212E6 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE83E2E151A94B5003212E6 /* discover.png */; };
+		1BE83E31151A9501003212E6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE83E30151A9501003212E6 /* settings.png */; };
+		1BE83E39151AA46C003212E6 /* info_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE83E38151AA46C003212E6 /* info_24.png */; };
+		1BF2239015195962004322A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF2238F15195962004322A8 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0FE64E153FB7BE00586077 /* default_artist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_artist.png; sourceTree = "<group>"; };
+		1B06EB4B15125E0A00CA5F0A /* Gigstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gigstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B06EB4F15125E0A00CA5F0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B06EB5115125E0A00CA5F0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B06EB5315125E0A00CA5F0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B06EB5715125E0A00CA5F0A /* Gigstar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gigstar-Info.plist"; sourceTree = "<group>"; };
+		1B06EB5915125E0A00CA5F0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B06EB5B15125E0A00CA5F0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B06EB5D15125E0A00CA5F0A /* Gigstar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gigstar-Prefix.pch"; sourceTree = "<group>"; };
+		1B06EB5E15125E0A00CA5F0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B06EB5F15125E0A00CA5F0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B3D85E5153995870041DDEA /* LocalSearchConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalSearchConnection.h; path = LocalSearch/LocalSearchConnection.h; sourceTree = "<group>"; };
+		1B3D85E6153995870041DDEA /* LocalSearchConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalSearchConnection.m; path = LocalSearch/LocalSearchConnection.m; sourceTree = "<group>"; };
+		1B44A0C5151261B0000AB40E /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		1B44A0C6151261B0000AB40E /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		1B44A0C7151261B0000AB40E /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		1B632D4E153EF94F00E87071 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		1B632D4F153EF94F00E87071 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		1B7BA4561537A5D900B40F39 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		1B82FBA0153756D20018EC87 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1B82FBA1153756D20018EC87 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		1B82FBA2153756D20018EC87 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		1B82FBA5153760C90018EC87 /* ArtistRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistRepository.h; sourceTree = "<group>"; };
+		1B82FBA6153760C90018EC87 /* ArtistRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistRepository.m; sourceTree = "<group>"; };
+		1B85E51115387F9100D8F59D /* MapEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapEventsViewController.h; sourceTree = "<group>"; };
+		1B85E51215387F9100D8F59D /* MapEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapEventsViewController.m; sourceTree = "<group>"; };
+		1B85E51315387F9100D8F59D /* MapEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapEventsViewController.xib; sourceTree = "<group>"; };
+		1B8DCE58153FE26200B3E74A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1B8DCE5A153FE39000B3E74A /* Artists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Artists.h; path = DataBase/Artists.h; sourceTree = "<group>"; };
+		1B8DCE5B153FE39000B3E74A /* Artists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Artists.m; path = DataBase/Artists.m; sourceTree = "<group>"; };
+		1B8DCE5D153FE43500B3E74A /* FollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowViewController.h; sourceTree = "<group>"; };
+		1B8DCE5E153FE43500B3E74A /* FollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowViewController.m; sourceTree = "<group>"; };
+		1B8DCE5F153FE43500B3E74A /* FollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowViewController.xib; sourceTree = "<group>"; };
+		1BB3E229153DD14A0041A1D5 /* MapEventAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapEventAnnotationView.h; path = MapEvents/MapEventAnnotationView.h; sourceTree = "<group>"; };
+		1BB3E22A153DD14A0041A1D5 /* MapEventAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapEventAnnotationView.m; path = MapEvents/MapEventAnnotationView.m; sourceTree = "<group>"; };
+		1BB3E22C153DD16E0041A1D5 /* MapEventAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapEventAnnotation.h; path = MapEvents/MapEventAnnotation.h; sourceTree = "<group>"; };
+		1BB3E22D153DD16E0041A1D5 /* MapEventAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapEventAnnotation.m; path = MapEvents/MapEventAnnotation.m; sourceTree = "<group>"; };
+		1BBC7706153DC340009EA4BD /* ArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
+		1BBC7707153DC340009EA4BD /* ArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
+		1BBC7708153DC340009EA4BD /* ArtistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistViewController.xib; sourceTree = "<group>"; };
+		1BC6E7E7151B83E4008EE467 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BDF414E151A1E920020061F /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		1BDF414F151A1E920020061F /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		1BDF4150151A1E920020061F /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		1BE6F0D3153F1A7800CD787D /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		1BE6F0D4153F1A7800CD787D /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		1BE6F0D7153F1EEB00CD787D /* MapEventsConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapEventsConnection.h; path = MapEvents/MapEventsConnection.h; sourceTree = "<group>"; };
+		1BE6F0D8153F1EEB00CD787D /* MapEventsConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapEventsConnection.m; path = MapEvents/MapEventsConnection.m; sourceTree = "<group>"; };
+		1BE6F0DD153F936600CD787D /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		1BE6F0DE153F936600CD787D /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		1BE6F0DF153F936700CD787D /* EventDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailViewController.xib; sourceTree = "<group>"; };
+		1BE6F0E7153FA3A400CD787D /* ArtistFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistFetch.h; sourceTree = "<group>"; };
+		1BE6F0E8153FA3A400CD787D /* ArtistFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistFetch.m; sourceTree = "<group>"; };
+		1BE6F0E9153FA3A400CD787D /* ArtistSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistSearch.h; sourceTree = "<group>"; };
+		1BE6F0EA153FA3A400CD787D /* ArtistSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistSearch.m; sourceTree = "<group>"; };
+		1BE83E1B151A8660003212E6 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		1BE83E1E151A914D003212E6 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		1BE83E1F151A914D003212E6 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		1BE83E20151A914D003212E6 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		1BE83E2A151A926B003212E6 /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.png; sourceTree = "<group>"; };
+		1BE83E2C151A935F003212E6 /* follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = follow.png; sourceTree = "<group>"; };
+		1BE83E2E151A94B5003212E6 /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
+		1BE83E30151A9501003212E6 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		1BE83E38151AA46C003212E6 /* info_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_24.png; sourceTree = "<group>"; };
+		1BF2238C15195927004322A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1BF2238F15195962004322A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B06EB4815125E0A00CA5F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC6E7E8151B83E4008EE467 /* CoreData.framework in Frameworks */,
+				1BB3E22F153DD2990041A1D5 /* MapKit.framework in Frameworks */,
+				1BF2239015195962004322A8 /* CoreLocation.framework in Frameworks */,
+				1B06EB5015125E0A00CA5F0A /* UIKit.framework in Frameworks */,
+				1B06EB5215125E0A00CA5F0A /* Foundation.framework in Frameworks */,
+				1B06EB5415125E0A00CA5F0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0FE64C153FB78B00586077 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0A0FE64E153FB7BE00586077 /* default_artist.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		0A3ADAF3153CB974007F53AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BE6F0E7153FA3A400CD787D /* ArtistFetch.h */,
+				1BE6F0E8153FA3A400CD787D /* ArtistFetch.m */,
+				1BE6F0E9153FA3A400CD787D /* ArtistSearch.h */,
+				1BE6F0EA153FA3A400CD787D /* ArtistSearch.m */,
+				1B632D4E153EF94F00E87071 /* Artist.h */,
+				1B632D4F153EF94F00E87071 /* Artist.m */,
+				1B82FBA5153760C90018EC87 /* ArtistRepository.h */,
+				1B82FBA6153760C90018EC87 /* ArtistRepository.m */,
+				1BE6F0D3153F1A7800CD787D /* Event.h */,
+				1BE6F0D4153F1A7800CD787D /* Event.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1B06EB4015125E0A00CA5F0A = {
+			isa = PBXGroup;
+			children = (
+				1B06EB5515125E0A00CA5F0A /* Gigstar */,
+				1B06EB4E15125E0A00CA5F0A /* Frameworks */,
+				1B06EB4C15125E0A00CA5F0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B06EB4C15125E0A00CA5F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B06EB4B15125E0A00CA5F0A /* Gigstar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B06EB4E15125E0A00CA5F0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC6E7E7151B83E4008EE467 /* CoreData.framework */,
+				1BF2238F15195962004322A8 /* CoreLocation.framework */,
+				1BF2238C15195927004322A8 /* MapKit.framework */,
+				1B06EB4F15125E0A00CA5F0A /* UIKit.framework */,
+				1B06EB5115125E0A00CA5F0A /* Foundation.framework */,
+				1B06EB5315125E0A00CA5F0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B06EB5515125E0A00CA5F0A /* Gigstar */ = {
+			isa = PBXGroup;
+			children = (
+				1B8DCE55153FE24800B3E74A /* DataBase */,
+				1BE83E1E151A914D003212E6 /* AboutViewController.h */,
+				1BE83E1F151A914D003212E6 /* AboutViewController.m */,
+				1BE83E20151A914D003212E6 /* AboutViewController.xib */,
+				1B06EB5E15125E0A00CA5F0A /* AppDelegate.h */,
+				1B06EB5F15125E0A00CA5F0A /* AppDelegate.m */,
+				1BBC7706153DC340009EA4BD /* ArtistViewController.h */,
+				1BBC7707153DC340009EA4BD /* ArtistViewController.m */,
+				1BBC7708153DC340009EA4BD /* ArtistViewController.xib */,
+				1B44A0C5151261B0000AB40E /* DiscoverViewController.h */,
+				1B44A0C6151261B0000AB40E /* DiscoverViewController.m */,
+				1B44A0C7151261B0000AB40E /* DiscoverViewController.xib */,
+				1B3D85E31539952B0041DDEA /* LocalSearch */,
+				1B8F6DAC153AECAC00869C38 /* MapEvents */,
+				1B85E51115387F9100D8F59D /* MapEventsViewController.h */,
+				1B85E51215387F9100D8F59D /* MapEventsViewController.m */,
+				1B85E51315387F9100D8F59D /* MapEventsViewController.xib */,
+				0A3ADAF3153CB974007F53AC /* Model */,
+				1BDF414E151A1E920020061F /* ScheduleViewController.h */,
+				1BDF414F151A1E920020061F /* ScheduleViewController.m */,
+				1BDF4150151A1E920020061F /* ScheduleViewController.xib */,
+				1B82FBA0153756D20018EC87 /* SettingsViewController.h */,
+				1B82FBA1153756D20018EC87 /* SettingsViewController.m */,
+				1B82FBA2153756D20018EC87 /* SettingsViewController.xib */,
+				1B06EB5615125E0A00CA5F0A /* Supporting Files */,
+				1BE6F0DD153F936600CD787D /* EventDetailViewController.h */,
+				1BE6F0DE153F936600CD787D /* EventDetailViewController.m */,
+				1BE6F0DF153F936700CD787D /* EventDetailViewController.xib */,
+				1B8DCE5D153FE43500B3E74A /* FollowViewController.h */,
+				1B8DCE5E153FE43500B3E74A /* FollowViewController.m */,
+				1B8DCE5F153FE43500B3E74A /* FollowViewController.xib */,
+			);
+			path = Gigstar;
+			sourceTree = "<group>";
+		};
+		1B06EB5615125E0A00CA5F0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0FE64C153FB78B00586077 /* images */,
+				1B06EB5B15125E0A00CA5F0A /* main.m */,
+				1B06EB5D15125E0A00CA5F0A /* Gigstar-Prefix.pch */,
+				1B06EB5715125E0A00CA5F0A /* Gigstar-Info.plist */,
+				1B883280151A3E9700CC7674 /* Icons */,
+				1B06EB5815125E0A00CA5F0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B3D85E31539952B0041DDEA /* LocalSearch */ = {
+			isa = PBXGroup;
+			children = (
+				1B3D85E5153995870041DDEA /* LocalSearchConnection.h */,
+				1B3D85E6153995870041DDEA /* LocalSearchConnection.m */,
+			);
+			name = LocalSearch;
+			sourceTree = "<group>";
+		};
+		1B883280151A3E9700CC7674 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1B7BA4561537A5D900B40F39 /* location.png */,
+				1BE83E38151AA46C003212E6 /* info_24.png */,
+				1BE83E2E151A94B5003212E6 /* discover.png */,
+				1BE83E2C151A935F003212E6 /* follow.png */,
+				1BE83E30151A9501003212E6 /* settings.png */,
+				1BE83E2A151A926B003212E6 /* schedule.png */,
+				1BE83E1B151A8660003212E6 /* map.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		1B8DCE55153FE24800B3E74A /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				1B8DCE57153FE26200B3E74A /* Model.xcdatamodeld */,
+				1B8DCE5A153FE39000B3E74A /* Artists.h */,
+				1B8DCE5B153FE39000B3E74A /* Artists.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		1B8F6DAC153AECAC00869C38 /* MapEvents */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3E229153DD14A0041A1D5 /* MapEventAnnotationView.h */,
+				1BB3E22A153DD14A0041A1D5 /* MapEventAnnotationView.m */,
+				1BB3E22C153DD16E0041A1D5 /* MapEventAnnotation.h */,
+				1BB3E22D153DD16E0041A1D5 /* MapEventAnnotation.m */,
+				1BE6F0D7153F1EEB00CD787D /* MapEventsConnection.h */,
+				1BE6F0D8153F1EEB00CD787D /* MapEventsConnection.m */,
+			);
+			name = MapEvents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B06EB4A15125E0A00CA5F0A /* Gigstar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B06EB7715125E0B00CA5F0A /* Build configuration list for PBXNativeTarget "Gigstar" */;
+			buildPhases = (
+				1B06EB4715125E0A00CA5F0A /* Sources */,
+				1B06EB4815125E0A00CA5F0A /* Frameworks */,
+				1B06EB4915125E0A00CA5F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gigstar;
+			productName = Gigstar;
+			productReference = 1B06EB4B15125E0A00CA5F0A /* Gigstar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B06EB4215125E0A00CA5F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = UA;
+			};
+			buildConfigurationList = 1B06EB4515125E0A00CA5F0A /* Build configuration list for PBXProject "Gigstar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B06EB4015125E0A00CA5F0A;
+			productRefGroup = 1B06EB4C15125E0A00CA5F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B06EB4A15125E0A00CA5F0A /* Gigstar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B06EB4915125E0A00CA5F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B06EB5A15125E0A00CA5F0A /* InfoPlist.strings in Resources */,
+				1B44A0C9151261B0000AB40E /* DiscoverViewController.xib in Resources */,
+				1BDF4152151A1E920020061F /* ScheduleViewController.xib in Resources */,
+				1BE83E1C151A8660003212E6 /* map.png in Resources */,
+				1BE83E22151A914D003212E6 /* AboutViewController.xib in Resources */,
+				1BE83E2B151A926B003212E6 /* schedule.png in Resources */,
+				1BE83E2D151A935F003212E6 /* follow.png in Resources */,
+				1BE83E2F151A94B5003212E6 /* discover.png in Resources */,
+				1BE83E31151A9501003212E6 /* settings.png in Resources */,
+				1BE83E39151AA46C003212E6 /* info_24.png in Resources */,
+				1B82FBA4153756D20018EC87 /* SettingsViewController.xib in Resources */,
+				1B7BA4571537A5D900B40F39 /* location.png in Resources */,
+				1B85E51515387F9100D8F59D /* MapEventsViewController.xib in Resources */,
+				1BBC770A153DC341009EA4BD /* ArtistViewController.xib in Resources */,
+				1BE6F0E1153F936700CD787D /* EventDetailViewController.xib in Resources */,
+				0A0FE64F153FB7BE00586077 /* default_artist.png in Resources */,
+				1B8DCE61153FE43500B3E74A /* FollowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B06EB4715125E0A00CA5F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B06EB5C15125E0A00CA5F0A /* main.m in Sources */,
+				1B06EB6015125E0A00CA5F0A /* AppDelegate.m in Sources */,
+				1B44A0C8151261B0000AB40E /* DiscoverViewController.m in Sources */,
+				1BDF4151151A1E920020061F /* ScheduleViewController.m in Sources */,
+				1BE83E21151A914D003212E6 /* AboutViewController.m in Sources */,
+				1B82FBA3153756D20018EC87 /* SettingsViewController.m in Sources */,
+				1B82FBA7153760C90018EC87 /* ArtistRepository.m in Sources */,
+				1B85E51415387F9100D8F59D /* MapEventsViewController.m in Sources */,
+				1B3D85E7153995870041DDEA /* LocalSearchConnection.m in Sources */,
+				1BBC7709153DC341009EA4BD /* ArtistViewController.m in Sources */,
+				1BB3E22B153DD14A0041A1D5 /* MapEventAnnotationView.m in Sources */,
+				1BB3E22E153DD16E0041A1D5 /* MapEventAnnotation.m in Sources */,
+				1B632D50153EF94F00E87071 /* Artist.m in Sources */,
+				1BE6F0D5153F1A7800CD787D /* Event.m in Sources */,
+				1BE6F0D9153F1EEB00CD787D /* MapEventsConnection.m in Sources */,
+				1BE6F0E0153F936700CD787D /* EventDetailViewController.m in Sources */,
+				1BE6F0EB153FA3A400CD787D /* ArtistFetch.m in Sources */,
+				1BE6F0EC153FA3A400CD787D /* ArtistSearch.m in Sources */,
+				1B8DCE59153FE26200B3E74A /* Model.xcdatamodeld in Sources */,
+				1B8DCE5C153FE39000B3E74A /* Artists.m in Sources */,
+				1B8DCE60153FE43500B3E74A /* FollowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B06EB5815125E0A00CA5F0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B06EB5915125E0A00CA5F0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B06EB7515125E0B00CA5F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B06EB7615125E0B00CA5F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B06EB7815125E0B00CA5F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gigstar/Gigstar-Prefix.pch";
+				INFOPLIST_FILE = "Gigstar/Gigstar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B06EB7915125E0B00CA5F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gigstar/Gigstar-Prefix.pch";
+				INFOPLIST_FILE = "Gigstar/Gigstar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B06EB4515125E0A00CA5F0A /* Build configuration list for PBXProject "Gigstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B06EB7515125E0B00CA5F0A /* Debug */,
+				1B06EB7615125E0B00CA5F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B06EB7715125E0B00CA5F0A /* Build configuration list for PBXNativeTarget "Gigstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B06EB7815125E0B00CA5F0A /* Debug */,
+				1B06EB7915125E0B00CA5F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B8DCE57153FE26200B3E74A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B8DCE58153FE26200B3E74A /* Model.xcdatamodel */,
+			);
+			currentVersion = 1B8DCE58153FE26200B3E74A /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = DataBase/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B06EB4215125E0A00CA5F0A /* Project object */;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iosbacktexture_repeat"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="8dp" >
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp">
+        
+        <TextView android:id="@+id/artistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDy="-1"
+            android:textColor="@android:color/white"
+            android:text="Artist Name"/>
+        
+        <ImageView android:id="@+id/artistPic"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_gravity="left"
+            android:maxWidth="150dp"
+            android:maxHeight="150dp"
+            android:minHeight="50dp"
+            android:minWidth="50dp"/>
+
+	</LinearLayout>
+	
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/black"
+            android:shadowDy="-1"
+            android:textColor="@android:color/white"
+            android:text="Biography"/>
+        
+        <TextView android:id="@+id/artistBio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:scrollbars="vertical"
+            android:textSize="14dp"
+            android:textColor="@android:color/white"
+            android:text="Some text"/>
+	</LinearLayout>
+    
+
+</LinearLayout>

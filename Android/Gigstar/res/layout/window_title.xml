@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="50dip"
+	android:gravity="center"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"
+	android:background="@drawable/navbar">
+	
+		<Button android:id="@+id/backButton"
+		    android:layout_weight="0"
+	        android:layout_gravity="center"
+	        android:layout_width="80dp"
+	        android:layout_height="34dp"
+	        android:paddingLeft="2dp"
+	        android:background="@drawable/iphonebackbutton"
+	        android:visibility="invisible"
+	        android:enabled="false"
+	        android:text="@string/backBtn"
+	        android:textColor="@color/ios_button_color" />
+
+		<TextView 
+			android:id="@+id/title"
+			android:layout_weight="1"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textSize="20dip"
+			android:textColor="@android:color/white" />
+		
+		<Button android:id="@+id/rightButton"
+		    android:layout_weight="0"
+		    android:layout_width="80dp"
+		    android:layout_height="34dp"
+		    android:layout_gravity="center_horizontal|center_vertical"
+		    android:background="@drawable/ios_button_image"
+		    android:visibility="invisible"
+		    android:enabled="false"
+		    android:textColor="@color/ios_button_color"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gigstar</string>
+
+    <string name="mapsActName">Mapas</string>
+    <string name="backBtn">Voltar</string>
+    <string name="searchBarLbl">Procurar</string>
+    <string name="searchBarButton">Procurar</string>
+    <string name="searchBarTxtHint">Comece a escrever para procurar...</string>
+    
+    <string name="mapTabName">Mapas</string>
+    <string name="discoverTabName">Descobrir</string>
+    <string name="followTabName">A Seguir</string>
+    <string name="scheduleTabName">Agenda</string>
+    <string name="aboutTabName">Sobre</string>
+    <string name="moreTabName">Mais</string>
+    <string name="settingsTabName">Definições</string>
+
+    <string name="startLabel">Inicio</string>
+    <string name="endLabel">Fim</string>
+    <string name="locationLabel">Localização</string>
+    <string name="artitsLabel">Artistas</string>
+    
+    <string name="hiperLink">Link para o evento</string>
+    
+    <string name="eventsDetailsTitle">Detalhes do evento</string>
+    <string name="artistDetailsTitle">Detalhes do artista</string>
+    
+    <string name="noMBIDError">Erro: MBID não encontrado...</string>
+    <string name="eventLabel">Evento</string>
+    
+    <string name="follow">Seguir</string>
+    <string name="unfollow">Abandonar</string>
+    
+</resources>

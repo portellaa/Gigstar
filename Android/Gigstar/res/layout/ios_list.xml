@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/ios_list_height"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center" >
+    
+    <ImageView android:id="@+id/ioslistpict"
+        android:layout_width="@dimen/ios_list_height"
+        android:layout_height="@dimen/ios_list_height"
+        android:maxHeight="@dimen/ios_list_height"
+        android:maxWidth="@dimen/ios_list_height"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="left|center_vertical"
+        android:visibility="gone"/>
+    
+    <TextView android:id="@+id/ioslisttext"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:gravity="left|center"
+        android:layout_gravity="left|center"
+        android:singleLine="true"
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    
+    <ImageView android:id="@+id/ioslistdisclosure"
+        android:layout_weight="0"
+        android:minHeight="13dp"
+        android:minWidth="9dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="13dp"
+        android:layout_width="9dp"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="right"
+        android:src="@drawable/ios_list_arrow"/>
+
+</LinearLayout>

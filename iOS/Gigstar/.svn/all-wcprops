@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/cm2012-g09/!svn/ver/26/Gigstar/Gigstar
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/cm2012-g09/!svn/ver/1/Gigstar/Gigstar/main.m
+END
+ScheduleViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cm2012-g09/!svn/ver/6/Gigstar/Gigstar/ScheduleViewController.h
+END
+ArtistSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/cm2012-g09/!svn/ver/19/Gigstar/Gigstar/ArtistSearch.h
+END
+FollowViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/FollowViewController.xib
+END
+info_24.png
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cm2012-g09/!svn/ver/4/Gigstar/Gigstar/info_24.png
+END
+settings.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cm2012-g09/!svn/ver/4/Gigstar/Gigstar/settings.png
+END
+ScheduleViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cm2012-g09/!svn/ver/6/Gigstar/Gigstar/ScheduleViewController.m
+END
+ArtistSearch.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/cm2012-g09/!svn/ver/26/Gigstar/Gigstar/ArtistSearch.m
+END
+FollowViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/FollowViewController.h
+END
+AboutViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cm2012-g09/!svn/ver/25/Gigstar/Gigstar/AboutViewController.xib
+END
+location.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cm2012-g09/!svn/ver/9/Gigstar/Gigstar/location.png
+END
+Artist.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/cm2012-g09/!svn/ver/25/Gigstar/Gigstar/Artist.h
+END
+FollowViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/FollowViewController.m
+END
+DiscoverViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cm2012-g09/!svn/ver/25/Gigstar/Gigstar/DiscoverViewController.xib
+END
+AboutViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cm2012-g09/!svn/ver/6/Gigstar/Gigstar/AboutViewController.h
+END
+map.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/cm2012-g09/!svn/ver/4/Gigstar/Gigstar/map.png
+END
+Artist.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/cm2012-g09/!svn/ver/25/Gigstar/Gigstar/Artist.m
+END
+DiscoverViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cm2012-g09/!svn/ver/8/Gigstar/Gigstar/DiscoverViewController.h
+END
+AboutViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cm2012-g09/!svn/ver/6/Gigstar/Gigstar/AboutViewController.m
+END
+ArtistFetch.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cm2012-g09/!svn/ver/19/Gigstar/Gigstar/ArtistFetch.h
+END
+Event.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/cm2012-g09/!svn/ver/21/Gigstar/Gigstar/Event.h
+END
+DiscoverViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cm2012-g09/!svn/ver/27/Gigstar/Gigstar/DiscoverViewController.m
+END
+ArtistFetch.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/ArtistFetch.m
+END
+Event.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/cm2012-g09/!svn/ver/21/Gigstar/Gigstar/Event.m
+END
+schedule.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cm2012-g09/!svn/ver/4/Gigstar/Gigstar/schedule.png
+END
+SettingsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cm2012-g09/!svn/ver/6/Gigstar/Gigstar/SettingsViewController.xib
+END
+MapEventsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cm2012-g09/!svn/ver/27/Gigstar/Gigstar/MapEventsViewController.xib
+END
+Gigstar-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cm2012-g09/!svn/ver/13/Gigstar/Gigstar/Gigstar-Info.plist
+END
+EventDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cm2012-g09/!svn/ver/27/Gigstar/Gigstar/EventDetailViewController.xib
+END
+follow.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/cm2012-g09/!svn/ver/4/Gigstar/Gigstar/follow.png
+END
+SettingsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cm2012-g09/!svn/ver/6/Gigstar/Gigstar/SettingsViewController.h
+END
+ArtistViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cm2012-g09/!svn/ver/26/Gigstar/Gigstar/ArtistViewController.xib
+END
+MapEventsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cm2012-g09/!svn/ver/27/Gigstar/Gigstar/MapEventsViewController.h
+END
+EventDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cm2012-g09/!svn/ver/27/Gigstar/Gigstar/EventDetailViewController.h
+END
+SettingsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cm2012-g09/!svn/ver/6/Gigstar/Gigstar/SettingsViewController.m
+END
+ArtistViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/ArtistViewController.h
+END
+ArtistRepository.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cm2012-g09/!svn/ver/22/Gigstar/Gigstar/ArtistRepository.h
+END
+MapEventsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cm2012-g09/!svn/ver/27/Gigstar/Gigstar/MapEventsViewController.m
+END
+MapViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cm2012-g09/!svn/ver/2/Gigstar/Gigstar/MapViewController.xib
+END
+default_artist.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cm2012-g09/!svn/ver/25/Gigstar/Gigstar/default_artist.png
+END
+EventDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cm2012-g09/!svn/ver/27/Gigstar/Gigstar/EventDetailViewController.m
+END
+ArtistViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/ArtistViewController.m
+END
+discover.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cm2012-g09/!svn/ver/4/Gigstar/Gigstar/discover.png
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/AppDelegate.h
+END
+ArtistRepository.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/ArtistRepository.m
+END
+MapViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cm2012-g09/!svn/ver/2/Gigstar/Gigstar/MapViewController.h
+END
+Gigstar-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cm2012-g09/!svn/ver/1/Gigstar/Gigstar/Gigstar-Prefix.pch
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cm2012-g09/!svn/ver/28/Gigstar/Gigstar/AppDelegate.m
+END
+MapViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cm2012-g09/!svn/ver/2/Gigstar/Gigstar/MapViewController.m
+END
+ScheduleViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cm2012-g09/!svn/ver/25/Gigstar/Gigstar/ScheduleViewController.xib
+END

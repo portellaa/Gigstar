@@ -1,0 +1,23 @@
+//
+//  MapViewController.h
+//  Gigstar
+//
+//  Created by Luis Afonso on 3/15/12.
+//  Copyright (c) 2012 UA. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+
+@interface MapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate> {
+    
+    IBOutlet MKMapView *mapView;
+    CLLocationManager *locationManager;
+    
+}
+
+@property (retain, nonatomic) IBOutlet MKMapView *mapView;
+
+
+@end

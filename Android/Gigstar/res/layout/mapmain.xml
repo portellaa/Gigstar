@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:background="@drawable/iosmapsearchbar" >
+		
+        
+        <EditText android:id="@+id/searchTxtBox"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:textSize="14dp"
+            android:hint="@string/searchBarTxtHint"
+            android:background="@drawable/ioslikeedittext"
+            android:singleLine="true" />
+        
+        <Button android:id="@+id/searchButton"
+            android:layout_weight="0"
+		    android:layout_width="66dp"
+		    android:layout_height="32dp"
+		    android:layout_gravity="right|center_vertical"
+		    android:background="@drawable/ios_button_image"
+            android:text="@string/searchBarButton"
+            android:textColor="@color/ios_button_color"
+            android:enabled="false" />
+    </LinearLayout>
+    
+    <org.ua.gigstar.utils.GigMapView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+    	android:apiKey="0x5Iyf8cSj4wlJWonb5u8lzcxxKcZL727A8Ayzw" />
+
+</LinearLayout>

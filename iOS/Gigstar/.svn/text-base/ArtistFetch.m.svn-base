@@ -1,0 +1,77 @@
+//
+//  ArtistSearch.m
+//  Gigstar
+//
+//  Created by
+//	Luis Portela, luis.portela@ua.pt
+//  Marco Oliveira, marcooliveira@ua.pt
+//
+
+#import "ArtistFetch.h"
+
+@implementation ArtistFetch
+
+@synthesize delegate, receivedData;
+
+- (void)getArtistWithMBID:(NSString *)mbid
+{
+	self.receivedData = [NSMutableData data];
+	
+	NSString *str = [NSString stringWithFormat:@"http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&mbid=%@&api_key=92acbb9ef2c30c614417cc9b9ce2ee0c&format=json", mbid];
+	NSLog(@"ArtisFetch : getArtistWithMBID -> URL: %@", str);
+	NSURL *url = [NSURL URLWithString:str];
+	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+	[NSURLConnection connectionWithRequest:request delegate:self];
+	
+	[request release];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{
+	// connection is starting, clear buffer
+	[self.receivedData setLength:0];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+	// data is arriving, add it to the buffer
+	[self.receivedData appendData:data];
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+	// something went wrong, release connection
+	// [connection release]; // not necessary, because we don't retain the connection
+	
+	[self.delegate errorGettingArtist:error];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+	// all done, release connection, return results
+	
+	
+	NSError *error = nil;
+	
+	NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:self.receivedData options:NSJSONReadingMutableContainers error: &error];
+	if (!jsonDictionary) {
+		[self.delegate errorGettingArtist:error];
+	}
+	else {
+        
+        if ([jsonDictionary objectForKey:@"error"] != NULL) {
+            [self.delegate errorGettingArtist:nil];
+        }
+        else {
+            [self.delegate didFinishGettingArtist:jsonDictionary];
+        }
+        NSLog(@"ArtistFetch jsonDictionary: %@",jsonDictionary);
+	}
+	
+	[self.receivedData setLength:0];
+}
+
+@end
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GigstarWindowTitleBackground">
+        <item name="android:background">#000000</item>
+    </style>
+    
+    <style name="GigListViewStyle" parent="android:style/Widget.ListView">
+    	<item name="android:listSelector">@android:color/transparent</item>
+  </style>
+    
+    
+	<style name="GigstarTheme" parent="android:Theme">
+		<item name="android:windowBackground">@drawable/app_background</item>
+		<item name="android:windowTitleSize">50dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/GigstarWindowTitleBackground</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:listViewStyle">@style/GigListViewStyle</item>
+	</style>
+</resources>
